@@ -9,9 +9,17 @@
     "设计模式",
     "Design Patterns",
     "typescript",
-    "webpack",
+    "react",
+    "react native",
+    "flutter",
+    "dart",
+    "taro",
+    "小程序",
+    "H5",
+    "web",
+    "app",
     "js",
-    "23"
+    "23 种设计模式 APP"
   ],
   "main": "index.js",
   "scripts": {
