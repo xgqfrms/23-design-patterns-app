@@ -1,0 +1,51 @@
+{
+  "name": "23-design-patterns-app",
+  "version": "1.0.0",
+  "description": "23 种设计模式 APP, 23-design-patterns-app",
+  "private": true,
+  "author": "xgqfrms",
+  "license": "MIT",
+  "keywords": [
+    "设计模式",
+    "Design Patterns",
+    "typescript",
+    "webpack",
+    "js",
+    "23"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./build/webpack.config.js",
+    "app": "webpack --mode=none --config ./build/webpack.config.js",
+    "open": "open http://localhost:8080",
+    "auto-open": "yarn open && webpack-dev-server --config ./build/webpack.config.js",
+    "env": "export NODE_ENV=production",
+    "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+    "build": "webpack --mode=production --config ./build/webpack.config.js",
+    "stats": "webpack --config ./build/webpack.config.js --json > ./000-xyz/webpack-stats.json",
+    "profile": "webpack --config ./build/webpack.config.js --profile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dev": "./scripts/dev.sh",
+    "app": "./scripts/app.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/23-design-patterns-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgqfrms/23-design-patterns-app/issues"
+  },
+  "homepage": "https://github.com/xgqfrms/23-design-patterns-app#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
