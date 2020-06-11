@@ -1,8 +1,6 @@
-# 23-design-patterns-app
+# 23 Design Patterns App
 
-> 23 种设计模式 APP
-
-https://www.cnblogs.com/xgqfrms/p/12904917.html
+https://23-design-patterns-app.xgqfrms.xyz/
 
 > 不同分支 git branch
 
@@ -29,6 +27,7 @@ $ git checkout branch taro-app
 
 
 ```
+
 
 ## web app
 
@@ -60,4 +59,8 @@ $ git checkout branch taro-app
 2. preview / details
 3. codes
 4. share
+
+## 23 种设计模式 APP
+
+https://www.cnblogs.com/xgqfrms/p/12904917.html
 
