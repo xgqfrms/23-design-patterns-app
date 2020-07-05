@@ -45,6 +45,7 @@ $ git branch -a
 # create branch
 # $ git checkout -b <branch_name>
 $ git checkout -b test
+# OR
 # $ git branch <branch_name>
 $ git branch test
 
