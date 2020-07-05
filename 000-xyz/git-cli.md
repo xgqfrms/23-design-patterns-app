@@ -38,3 +38,72 @@ https://tecadmin.net/how-to-create-a-branch-in-remote-git-repository/
 https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch
 
 
+## git
+
+```sh
+# list all branch(local)
+$ git branch --list
+$ git branch -l
+# OR
+$ git branch
+
+# list all remote branches
+$ git branch -a
+# Q === quit
+
+# create branch
+# $ git checkout -b <branch_name>
+$ git checkout -b test
+# OR
+# $ git branch <branch_name>
+$ git branch test
+
+# delete branch
+# -d safe delete
+# $ git branch -d <branch_name>
+$ git branch -d test
+# Deleted branch test (was 686c96b).
+
+# -D force delete
+# $ git branch -D <branch_name>
+$ git branch -D test
+
+# rename the current branch
+# $ git branch -m <branch>
+$ git branch -m test
+
+# change branch
+$ git checkout branch flutter-app
+
+```
+
+```sh
+# creating remote branch
+
+# Add remote repo to local repo config
+# $ git remote add new-remote-repo https://github.com/user/repo.git
+$ git remote add new-remote-repo https://github.com/xgqfrms/test.git
+
+# push the test branch to new-remote-repo
+$ git push <new-remote-repo> test
+
+```
+
+https://www.atlassian.com/git/tutorials/using-branches
+
+```code
+  flutter-app
+  test
+* master
+
+```
+
+```code
+  flutter-app
+  test
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/gh-pages
+  remotes/origin/master
+
+```
