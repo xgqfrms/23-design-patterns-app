@@ -1,4 +1,4 @@
-## git cli 
+# git cli 
 
 
 ## git create remote branch
@@ -27,9 +27,14 @@ $ git push origin test
 # local & remote with a different name
 $ git push origin test:dev
 
-# ❌ delete remote brach bug, if only `:<remote-branch-name>` 
+# ❌ delete remote branch bug, if only `:<remote-branch-name>` 
 $ git push origin :dev
 
+
+# delete remote branch 💩⚠ ❌
+$ git push origin --delete test
+# OR
+$ git push origin :test
 
 ```
 
