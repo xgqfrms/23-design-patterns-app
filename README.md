@@ -24,9 +24,9 @@ $ git branch taro-app
 $ git checkout branch web-app
 $ git checkout branch desktop-app
 # react-native
-$ git checkout branch rn-app
+$ git checkout rn-app
 # flutter
-$ git checkout branch flutter-app
+$ git checkout flutter-app
 $ git checkout branch ssr-app
 $ git checkout branch pwa-app
 $ git checkout branch amp-app
