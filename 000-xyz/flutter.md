@@ -1,5 +1,28 @@
 # Flutter
 
+
+```sh
+# simulator / emulator
+$ open -a Simulator
+
+```
+
+```sh
+# env
+$ flutter doctor
+
+# create
+$ flutter create design_pattern_app
+
+# dev
+$ flutter run
+
+# multi devices
+$ flutter devices
+$ flutter run -d all
+
+```
+
 https://github.com/flutter/flutter
 
 https://github.com/flutter/flutter/releases
@@ -15,7 +38,7 @@ $ flutter upgrade
 
 ```
 
-```code
+```sh
 ➜  23-design-patterns-app git:(master) ✗ flutter --version
 Flutter 1.17.3 • channel stable • https://github.com/flutter/flutter.git
 Framework • revision b041144f83 (4 weeks ago) • 2020-06-04 09:26:11 -0700
@@ -86,28 +109,5 @@ Available commands:
 
 Run "flutter help <command>" for more information about a command.
 Run "flutter help -v" for verbose help output, including less commonly used options.
-
-```
-
-
-```sh
-# simulator / emulator
-$ open -a Simulator
-
-```
-
-```sh
-# env
-$ flutter doctor
-
-# create
-$ flutter create design_pattern_app
-
-# dev
-$ flutter run
-
-# multi devices
-$ flutter devices
-$ flutter run -d all
 
 ```
