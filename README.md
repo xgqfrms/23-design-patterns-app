@@ -5,6 +5,11 @@ https://23-design-patterns-app.xgqfrms.xyz/
 > 不同分支 git branch
 
 ```sh
+$ git branch --list
+
+```
+
+```sh
 # create branch
 $ git branch web-app
 $ git branch desktop-app
@@ -27,6 +32,28 @@ $ git checkout branch pwa-app
 $ git checkout branch amp-app
 $ git checkout branch taro-app
 
+
+```
+
+```sh
+$ git checkout branch flutter-app
+error: pathspec 'branch' did not match any file(s) known to git
+error: pathspec 'flutter-app' did not match any file(s) known to git
+
+$ git branch -d flutter-app
+$ git branch -D flutter-app
+
+```
+
+```sh
+$ git remote add new-remote-repo https://github.com/xgqfrms/23-design-patterns-app.git
+
+$ git remote add new-remote-repo https://bitbucket.com/user/repo.git 
+# Add remote repo to local repo config 
+$ git push crazy-experiment
+# pushes the crazy-experiment branch to new-remote-repo
+
+$ git branch -d crazy-experiment
 
 ```
 
