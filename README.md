@@ -27,6 +27,7 @@ $ git checkout branch amp-app
 $ git checkout branch taro-app
 
 
+$ git checkout flutter-app
 ```
 
 ## git
