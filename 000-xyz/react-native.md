@@ -53,3 +53,18 @@ Learn once, write anywhere
 ✔ Processing template
 ⠇ Installing CocoaPods dependencies (this may take a few minutes)
 ```
+
+## CocoaPods bug
+
+```sh
+✔ Downloading template
+✔ Copying template
+✔ Processing template
+✖ Installing CocoaPods dependencies (this may take a few minutes)
+✖ Installing CocoaPods dependencies (this may take a few minutes)
+error Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template.
+Please try again manually: "cd ./design_pattern_app/ios && pod install".
+CocoaPods documentation: https://cocoapods.org/
+
+$ cd ./design_pattern_app/ios && pod install
+```
