@@ -1,6 +1,11 @@
 # React Native
 
 ```sh
+$ npx react-native init design_pattern_app
+
+```
+
+```sh
 $ npm uninstall -g react-native-cli
 
 $ npx react-native init App
@@ -10,6 +15,7 @@ $ npx react-native init App --version 0.63.0
 
 $ npx react-native init TSApp --template react-native-template-typescript
 ```
+
 ## dev
 
 ```sh
