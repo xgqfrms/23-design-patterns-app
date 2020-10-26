@@ -65,6 +65,24 @@ Learn once, write anywhere
 error Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template.
 Please try again manually: "cd ./design_pattern_app/ios && pod install".
 CocoaPods documentation: https://cocoapods.org/
+```
 
+```sh
 $ cd ./design_pattern_app/ios && pod install
+
+Analyzing dependencies
+Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+Fetching podspec for `Folly` from `../node_modules/react-native/third-party-podspecs/Folly.podspec`
+Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+Downloading dependencies
+Installing CocoaAsyncSocket (7.6.4)
+Installing CocoaLibEvent (1.0.0)
+Installing DoubleConversion (1.1.6)
+
+[!] Error installing DoubleConversion
+[!] /usr/bin/git clone https://github.com/google/double-conversion.git /var/folders/qm/csrtpvpn62x82v4zykvsrnw80000gn/T/d20201026-75610-10ywk82 --template= --single-branch --depth 1 --branch v1.1.6
+
+Cloning into '/var/folders/qm/csrtpvpn62x82v4zykvsrnw80000gn/T/d20201026-75610-10ywk82'...
+error: RPC failed; curl 56 LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 54
+fatal: the remote end hung up unexpectedly
 ```
