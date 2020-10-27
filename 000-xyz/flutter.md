@@ -23,6 +23,12 @@ $ flutter run -d all
 
 ```
 
+```sh
+# pub get bug ❌
+$ flutter pub get
+
+```
+
 https://github.com/flutter/flutter
 
 https://github.com/flutter/flutter/releases
