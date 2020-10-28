@@ -1,6 +1,5 @@
 # Flutter
 
-
 ```sh
 # simulator / emulator
 $ open -a Simulator
