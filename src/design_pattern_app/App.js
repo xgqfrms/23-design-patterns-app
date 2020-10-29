@@ -32,7 +32,13 @@ const App: () => React$Node = () => {
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
-          <Header />
+          {/* <Header /> */}
+          <View style={styles.header}>
+              <Text style={styles.desc}>23 Design Patterns App</Text>
+          </View>
+          {/* <View style={styles.header}>
+              <Text style={styles.desc}>23 Design Patterns App</Text>
+          </View> */}
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
@@ -73,6 +79,20 @@ const App: () => React$Node = () => {
 };
 
 const styles = StyleSheet.create({
+  header: {
+    // position: 'absolute',
+    // right: 0,
+    backgroundColor: Colors.black,
+  },
+  desc: {
+    fontSize: 28,
+    fontWeight: '600',
+    color: "rgba(0, 255, 0, 0.7)",
+    // color: "green",
+    // color: Colors.white,
+    textAlign: "center",
+    padding: 10,
+  },
   scrollView: {
     backgroundColor: Colors.lighter,
   },

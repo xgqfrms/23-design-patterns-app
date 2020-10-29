@@ -180,10 +180,21 @@ https://github.com/facebook/folly
 
 
 ```sh
+# ios simulator
+$ open -a Simulator
+
+$ cd design_pattern_app
+
 $ npx react-native run-ios
 
 $ npx react-native run-android
 
 ```
 
+## React Native for macOS
+
+> 0.62
+
 https://aka.ms/ReactNative
+
+https://microsoft.github.io/react-native-windows

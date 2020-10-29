@@ -28,4 +28,29 @@ $ git checkout rn-app
 https://www.cnblogs.com/xgqfrms/p/12904917.html
 
 
+## dev
 
+```sh
+# ios simulator
+$ open -a Simulator
+
+$ cd design_pattern_app
+
+$ npx react-native run-ios
+
+$ npx react-native run-android
+
+```
+
+```sh
+# To reload the app press "r"
+# To open developer menu press "d"
+
+```
+## React Native for macOS
+
+> 0.62
+
+https://aka.ms/ReactNative
+
+https://microsoft.github.io/react-native-windows
