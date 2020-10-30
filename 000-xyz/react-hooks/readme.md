@@ -32,3 +32,6 @@ useDebugValue
 https://reactjs.org/docs/hooks-faq.html
 
 
+## PureComponents
+
+https://www.cnblogs.com/xgqfrms/p/13899830.html
