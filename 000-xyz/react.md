@@ -21,10 +21,12 @@ $ npm init react-app design_patterns_app
 
 ```sh
 # Yarn
-$ cd design_patterns_app && yarn start
+$ cd design_patterns_app
+$ yarn start
 
 # npm
-$ cd design_patterns_app && npm start
+$ cd design_patterns_app
+$ npm start
 
 ```
 
