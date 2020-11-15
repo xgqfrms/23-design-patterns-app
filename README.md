@@ -8,13 +8,13 @@ https://23-design-patterns-app.xgqfrms.xyz/
 $ git branch --list
 
 # react
-$ git checkout web-app
+$ git checkout electron-app
 
 ```
 
-## web app
+## electron app
 
-> React + Redux + TypeScript
+> Electron + React
 
 ## app project content
 
