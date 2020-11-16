@@ -52,3 +52,29 @@ https://www.electronforge.io/
 
 https://electronjs.org/docs/tutorial/first-app
 
+
+
+## 手动下载 electron-v10.1.5-darwin-x64.zip ？？？
+
+手动安装
+
+nrm => cnpm
+
+## CSP
+
+> Content-Security-Policy
+
+https://electronjs.org/docs/tutorial/security
+
+```sh
+
+Electron Security Warning (Insecure Content-Security-Policy) This renderer process has either no Content Security Policy set or a policy with "unsafe-eval" enabled.
+This exposes users of this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+(anonymous) @ electron/js2c/renderer_init.js:111
+
+```

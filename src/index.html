@@ -6,10 +6,18 @@
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
   </head>
   <body>
-    <h1>Hello Electron!</h1>
-    我们正在使用节点
-    <script>文档 = document.wite(process.versions.node)</script>,
-    <script>Chrome = document.write(process.versions.chrome)</script>,
-    <script>Electron = document.write(cess.versions.electron)</script>.
+    <main>
+      <h1>Hello Electron!</h1>
+      <div id="app">loading...</div>
+    </main>
+    <script>
+      const app = document.querySelector(`#app`);
+      setTimeout(() => {
+        app.innerHTML = ``;
+        app.insertAdjacentHTML(`beforeend`, `<p>Node.js version = ${process.versions.node}</p>`);
+        app.insertAdjacentHTML(`beforeend`, `<p>Chrome version= ${process.versions.chrome}</p>`);
+        app.insertAdjacentHTML(`beforeend`, `<p>Electron version = ${process.versions.electron}</p>`);
+      }, 3000)
+    </script>
   </body>
 </html>
