@@ -22,8 +22,10 @@
 
 const log = console.log;
 
-log(`__dirname`, __dirname)
+const path = require('path');
+// path.dirname(file_path);
 
+// log(`__dirname`, __dirname);
 const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
@@ -33,11 +35,17 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true
     }
-  })
-
+  });
   // win.loadFile('index.html');
   // win.loadFile(__dirname + '/index.html');
-  win.loadFile(__dirname.replace(`src`, ``) + '/public/index.html');
+  // relative path 拼接 ✅
+  // win.loadFile(__dirname.replace(`src`, ``) + '/public/index.html');
+  let directories = path.dirname('index.js');
+  log(`directories =`, directories);
+  // directories = ., . 即指项目的 root path ✅
+  // win.loadFile(directories.replace(`src`, ``) + '/public/index.html');
+  // . === 项目的 root path ✅
+  win.loadFile('./public/index.html');
   // 打开 debug 模式
   win.webContents.openDevTools();
 }
