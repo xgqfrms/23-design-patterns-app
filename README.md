@@ -34,7 +34,7 @@ https://www.cnblogs.com/xgqfrms/p/12904917.html
 # ios simulator
 $ open -a Simulator
 
-$ cd design_pattern_app
+$ cd src/design_pattern_app
 
 $ npx react-native run-ios
 
