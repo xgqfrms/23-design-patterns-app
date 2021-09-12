@@ -27,3 +27,24 @@ $ git checkout flutter-app
 
 https://www.cnblogs.com/xgqfrms/p/12904917.html
 
+
+## dev
+
+```sh
+# 从命令行启动 iOS 模拟器
+$ open -a Simulator
+
+```
+
+https://www.cnblogs.com/xgqfrms/p/12697742.html
+
+```sh
+# 从命令行启动 Android 模拟器
+$ emulator @avd_name
+
+$ emulator -avd avd_name
+
+```
+
+https://www.cnblogs.com/xgqfrms/p/15067483.html
+      

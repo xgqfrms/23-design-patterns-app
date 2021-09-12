@@ -100,9 +100,18 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'You have pushed the button this many times:',
             ),
+            Icon(Icons.star),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              // style: Theme.of(context).textTheme.headline4,
+              style: TextStyle (
+                color: Colors.blue,
+                fontSize: 36.0,
+                height: 2,
+                decoration: TextDecoration.underline,
+                decorationColor: Colors.red,
+                decorationStyle: TextDecorationStyle.wavy,
+              ),
             ),
           ],
         ),
